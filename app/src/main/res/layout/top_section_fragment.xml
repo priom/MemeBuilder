@@ -8,7 +8,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:width="300dp" />
+        android:width="300dp"
+    />
 
     <EditText
         android:id="@+id/bottomTxtIn"
@@ -17,7 +18,8 @@
         android:layout_below="@+id/topTextIn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:width="300dp" />
+        android:width="300dp"
+    />
 
     <Button
         android:id="@+id/button"
@@ -25,6 +27,7 @@
         android:layout_height="wrap_content"
         android:text="@string/button_txt"
         android:layout_below="@+id/bottomTxtIn"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+    />
 
 </RelativeLayout>

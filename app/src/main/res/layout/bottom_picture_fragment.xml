@@ -11,9 +11,11 @@
         android:id="@+id/topMemeTxt"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:gravity="center_horizontal"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textAllCaps="true"
+    />
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +26,10 @@
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/topMemeTxt"
         android:layout_alignStart="@+id/topMemeTxt"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:gravity="center_horizontal"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        />
+
 </RelativeLayout>
